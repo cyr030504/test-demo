@@ -8,7 +8,7 @@ import EditPost from './pages/EditPost';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/test-demo">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
